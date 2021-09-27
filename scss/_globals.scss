@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+html{
+     font-family: 'Besley', serif;
+    font-size: 62.5%;
+} 
+
+body{
+    background-image: url(../img/fondo_web.jpg);
+    background-size: 90rem;
+    height: 100vh;
+    font-family: 'Besley', serif ;
+    line-height: normal;
+
+    h1{
+        font-family: 'Abril Fatface', cursive;
+        color: #f5c684;
+        font-size: 5em;
+        letter-spacing: 0.2em;
+        display: flex;
+        justify-content: center;
+    }
+    h2{
+        color: #f5c684;
+        font-family: 'Abril Fatface', cursive;
+        font-size: 2em;
+    }
+}
+
+
+
+/* Clase para los links del header y footer*/
+.link_hf{
+    display: inline-block;
+    color: #000000;
+    font-size: 2em;
+    padding: 2rem 1rem;
+    text-decoration: none;
+}

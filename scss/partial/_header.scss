@@ -1,0 +1,36 @@
+.header{
+    background: (linear-gradient(to bottom, #ecddb6 0%, #f5c684 83%, #000000 100%)) ;
+    display: inline-block;
+    padding: 0.5rem;
+
+    .header__nav{
+        display: flex;
+        text-align: end;
+        align-items: flex-end;
+    }
+
+    ul{
+        list-style-type: none;
+        width: 85%;
+        font-size: 2.5em;
+        margin: 0rem 0rem 2.5rem;
+        li{
+            display: inline;
+            margin: 1.5rem 1rem;
+            
+        }
+    }
+    a {
+        text-decoration: none;
+        color:  #000000 ;
+        
+    }
+    .header__nav__link{
+        width: 15%;
+        margin: 1rem;
+        .header__nav__link__logo{
+            width: 100%;
+        }
+    }
+    
+}

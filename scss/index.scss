@@ -1,0 +1,16 @@
+/*IMPORTS*/
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Domine:wght@400;500;700&display=swap');
+
+/*GLOBALS*/
+@import "./globals";
+
+/*PARTIALS*/
+@import "./partial/header";
+@import "./partial/footer";
+
+/*PAGES*/
+@import "./pages/home";
+@import "./pages/sobre_nosotros";
+@import "./pages/nuestros_productos";
+@import "./pages/donde_encontrarnos";
+@import "./pages/contactos";

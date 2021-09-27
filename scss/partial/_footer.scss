@@ -1,0 +1,29 @@
+.footer{
+    background: (linear-gradient(to top, #ecddb6 0%, #f5c684 83%, #000000 100%)) ;
+    .footer__ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .ul__liLogo{
+            width: 15%;
+            .ul__liLogo--img{
+                width: 100%;
+            }
+        }
+        .ul__li__copy{
+            font-size: 2em;
+        }
+        .ul__li__redes{
+            width: 5%;
+            .ul__li__redes--img{
+                width: 100%;
+            }
+        }
+
+    } 
+
+    ul{
+        list-style-type: none;
+    }
+}
+  
