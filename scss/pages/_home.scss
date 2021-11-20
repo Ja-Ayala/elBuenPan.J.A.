@@ -1,26 +1,96 @@
 
+main{
+    #carouselExampleSlidesOnly{
+        display: none;
+    }
+    .carousel{
+        height: 62rem;
+        width: 42rem;
+        top: 4rem;
+        left: 19rem;
+    }
+    .carousel-inner{
+        border-radius: 5rem;
+        box-shadow: 10px 10px 10px grey;
+    }
+    .p_index{
+        color: #ff9900;
+        font-size: 2.8em;
+        text-align: center;
+        background-color: rgba(128, 128, 128, 0.761);
+        width: 38rem;
+        height: 36rem;
+        border-radius: 3rem;
+        padding: 2.5rem;
+        box-shadow: 10px 10px 10px grey;
+        position: relative;
+        top: -8rem;
+        left: 53rem; 
+    }
 
-.carousel{
-    height: 53rem;
-    width: 35rem;
-    top: 3rem;
-    left:15rem;
 }
-.carousel-inner{
-    border-radius: 5rem;
-    box-shadow: 10px 10px 10px grey;
+/*responsive*/
+@media only screen and (max-width: 769px){
+    main{
+        #carouselExampleSlidesOnly{
+            display: none;
+        }
+        .container{
+            max-width: 750px;
+        }
+        .carousel{
+            height: 40%;
+            width: 40%;
+            top: 5rem;
+            left:7rem;
+        }
+        .p_index{
+            color: #ff9900;
+            font-size: 2em;
+            text-align: center;
+            background-color: rgba(128, 128, 128, 0.761);
+            width: 40%;
+            height: 40%;
+            border-radius: 3rem;
+            padding: 1.5rem;
+            box-shadow: 10px 10px 10px grey;
+            position: relative;
+            top: -4.5%;
+            left: 40%; 
+        }
+    }
 }
-.p_index{
-    color: #ff9900;
-    font-size: 2.8em;
-    text-align: center;
-    background-color: rgba(128, 128, 128, 0.761);
-    width: 34rem;
-    height: 35rem;
-    border-radius: 3rem;
-    padding: 2.5rem;
-    box-shadow: 10px 10px 10px grey;
-    position: relative;
-    top: -12rem;
-    left: 38rem; 
+
+@media only screen and (max-width: 550px){
+    main{
+        h1{
+            font-size: 3.5em;
+        }
+        .index__section{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .carousel{
+                display: none;  
+             }
+             #carouselExampleSlidesOnly{
+                 display: block;
+                 margin: 3rem;
+             }
+             .p_index{
+                 color: #ff9900;
+                 font-size: 2.8em;
+                 text-align: center;
+                 background-color: rgba(128, 128, 128, 0.761);
+                 width: 85%;
+                 height: 40%;
+                 border-radius: 3rem;
+                 padding: 1.5rem;
+                 box-shadow: 10px 10px 10px grey;
+                 position: initial;
+             }
+
+        }
+        
+    }
 }

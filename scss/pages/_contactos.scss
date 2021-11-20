@@ -1,13 +1,69 @@
-.main__cont{
-    margin: 3rem;
-    section ul li,section form label{
+.h1__contactos{
+    letter-spacing: 0em;
+}
+.ul__contactanos{
+    display: flex;
+    align-items: center;
+    .ul__contactanos-tel{
+        color: #ff9900;
+        font-size: 2.5em;
+        display: block ruby;
+    }
+    .ul__contactanos-img{
+        width: 20%;
+        margin: 7rem;
+    }
+}
+    section form label{
         color: #ff9900;
     }
-    ul{
-        list-style-type: none;
+
+/* section form*/
+.section__2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .h2__contactos{
+        font-size: 4em;
     }
-    .img_footer{
-        width: 5%;
+    .label__text{
+        font-size: 2em;
     }
 }
 
+/*media*/
+@media only screen and (max-width: 769px){
+    .h1__contactos{
+        font-size: 3em;
+    }
+    .section__1{
+        margin: 0 3rem;
+        .ul__contactanos{
+            .ul__contactanos-tel{
+                font-size: 2em;
+            }
+            .ul__contactanos-img{
+                margin: 0;
+                width: 80%;
+            }
+        }
+    }
+    .section__2{
+        .h2__contactos{
+            font-size: 3em;
+        }
+    }
+}
+
+@media only screen and (max-width: 550px){
+    main{
+        .section__1{
+            .ul__contactanos{
+                .ul__contactanos-tel{
+                    font-size: 1.5em;
+                }
+            }
+        }
+    }
+    
+}

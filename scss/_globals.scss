@@ -31,6 +31,9 @@ body{
         font-family: 'Abril Fatface', cursive;
         font-size: 2em;
     }
+    [alt='www.000webhost.com']{
+        display: none;
+    }
 }
 
 
@@ -42,4 +45,23 @@ body{
     font-size: 2em;
     padding: 2rem 1rem;
     text-decoration: none;
+}
+
+/* media*/
+@media only screen and (max-width: 769px){
+   body{
+    h1{
+        font-family: 'Abril Fatface', cursive;
+        color: #f5c684;
+        font-size: 5em;
+        letter-spacing: 0em;
+        display: flex;
+        justify-content: center;
+    }
+    h2{
+        color: #f5c684;
+        font-family: 'Abril Fatface', cursive;
+        font-size: 2em;
+    }
+   }
 }

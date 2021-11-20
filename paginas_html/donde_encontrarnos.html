@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="panaderia, el buen pan, artesanal, esperanza, masa madre, pan casero, snata fe, Argentina">
+    <meta name="description" content="Panadería El buen pan, esta ubicada en Esperanza, Santa fe">
     <title>Panadería El buen pan</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="../css/index.css">
@@ -15,38 +17,45 @@
             <a class="header__nav__link" href="../index.html">
                 <img class="header__nav__link__logo" src="../img/logo.png" alt="Logo de panadería">
             </a>
+            <input type="checkbox" name="nav__checkbox" id="nav__checkbox" class="nav__menu__checkbox">
+            <label for="nav__checkbox" class="nav__menu__hamburguesa">
+                <img src="../img/men_ham.png" alt="boton_menu" class="menu__abrir-img">
+                <img src="../img/men_close.png" alt="boton_cerrar_menu" class="menu__cerrar-img">
+            </label>
             <ul class="header__nav__ul">
                 <li>
-                    <a href="./sobre_nosotros.html">Sobre nosotros</a>
+                    <a href="../paginas_html/sobre_nosotros.html">Sobre nosotros</a>
                 </li>
                 <li>
-                    <a href="./nuestros_productos.html">Nuestros productos</a>
+                    <a href="../paginas_html/nuestros_productos.html">Nuestros productos</a>
                 </li> 
-                <li><a href="./donde_encontrarnos.html">Donde encontrarnos</a></li>
+                <li><a href="../paginas_html/donde_encontrarnos.html">Donde encontrarnos</a></li>
                 <li>
-                    <a href="./contactos.html">Contactos</a>
+                    <a href="../paginas_html/contactos.html">Contactos</a>
                 </li>
             </ul>
         </nav>
     </header>                                         <!--FIN de HEADER-->
 
 
-    <main>  
+    <main class="main__ubicacion">  
         <h1>Buscanos en:</h1>                                    <!--INICIO MAIN-->
-        <section>
-            <iframe class="googleMaps" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2023.822298117549!2d-60.89589356510731!3d-31.451305777849328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1630286207480!5m2!1ses-419!2sar" frameborder="0"></iframe>
-        </section>
-   
-        <section>
-            <div>
-                <p class="localizacion"> 
-                Dirección: Brigadier Lopez y Pio Guala<br><br><br><br>
-                Localidad: Esperanza, Santa fe, Argentina
-        
-                </p>
-
-            </div>
-        </section>                            
+        <div class="div__ubicacion">
+            <section class="div__ubicacion__sec1">
+                <iframe class="googleMaps" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2023.822298117549!2d-60.89589356510731!3d-31.451305777849328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1630286207480!5m2!1ses-419!2sar" frameborder="0"></iframe>
+            </section>
+       
+            <section class="div__ubicacion__sec2">
+                <div>
+                    <p class="main__ubicacion__dir"> 
+                    Dirección: Brigadier Lopez y Pio Guala<br><br><br><br>
+                    Localidad: Esperanza, Santa fe, Argentina
+            
+                    </p>
+    
+                </div>
+            </section>
+        </div>                            
     </main>                                         <!-- FIN MAIN -->
 
                                    

@@ -1,9 +1,11 @@
 .footer{
     background: (linear-gradient(to top, #ecddb6 0%, #f5c684 83%, #000000 100%)) ;
+   
     .footer__ul{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        margin-bottom: 0;
         .ul__liLogo{
             width: 15%;
             .ul__liLogo--img{
@@ -26,4 +28,21 @@
         list-style-type: none;
     }
 }
-  
+
+/*media*/
+@media only screen and (max-width: 550px){
+    .footer{
+        .footer__ul{
+            .ul__li__copy{
+                font-size: 1em;
+            }
+            .ul__li__redes{
+                width: 7%;
+                .ul__li__redes--img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    
+}

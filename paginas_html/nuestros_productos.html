@@ -4,37 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="facturas, bizcochos, torta dulce, pan, pan casero, pan de campo, pan masa madre, torta alemana, torta frutos secos, brownies, torta chocolate, mil hojas, biscochos con salame, chicharron, criollos, bizcochso grasa">   
+    <meta name="description" content="Panaderia EL buen pan, tenemos la mayor variedad de productos, los mas frescos, cada dia. Hojaldre, tortas dulces, facturas y mucho más">
     <title>Panadería El buen pan</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="../css/index.css">
-    <!-- <link rel="stylesheet" href="../css/main.css"> -->
 </head>
 <body>
     
-    <header class="header">                                            <!--INICIO de HEADER-->
+    <header class="header">                                      <!--INICIO de HEADER-->
         <nav class="header__nav">
             <a class="header__nav__link" href="../index.html">
                 <img class="header__nav__link__logo" src="../img/logo.png" alt="Logo de panadería">
             </a>
+            <input type="checkbox" name="nav__checkbox" id="nav__checkbox" class="nav__menu__checkbox">
+            <label for="nav__checkbox" class="nav__menu__hamburguesa">
+                <img src="../img/men_ham.png" alt="boton_menu" class="menu__abrir-img">
+                <img src="../img/men_close.png" alt="boton_cerrar_menu" class="menu__cerrar-img">
+            </label>
             <ul class="header__nav__ul">
                 <li>
-                    <a href="./sobre_nosotros.html">Sobre nosotros</a>
+                    <a href="../paginas_html/sobre_nosotros.html">Sobre nosotros</a>
                 </li>
                 <li>
-                    <a href="./nuestros_productos.html">Nuestros productos</a>
+                    <a href="../paginas_html/nuestros_productos.html">Nuestros productos</a>
                 </li> 
-                <li><a href="./donde_encontrarnos.html">Donde encontrarnos</a></li>
+                <li><a href="../paginas_html/donde_encontrarnos.html">Donde encontrarnos</a></li>
                 <li>
-                    <a href="./contactos.html">Contactos</a>
+                    <a href="../paginas_html/contactos.html">Contactos</a>
                 </li>
             </ul>
         </nav>
     </header>                                         <!--FIN de HEADER-->
     
-    <main >     
-        <h1 class="h1Prod">Nuestros productos más destacados</h1>                                 <!--INICIO MAIN-->
+    <main class="mainProd">                         <!--INICIO MAIN-->
+        <h1 class="h1Prod">Nuestros productos más destacados</h1>                  
       
-        <section>
+        <section class="secProd">
             <article class="artFacturas">
                 <h2 class="h2Prod" id="facProd">Facturas</h2>
                 

@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="keywords" content="panaderia, el buen pan, artesanal, esperanza, masa madre, pan casero, venta, mayorista, minorista ">
+    <meta name="description" content="Panadería artesanal, en Esperanza, Santa fe. Ofrecesmo una amplia variedad de productos frescos cada dia. Nuestras puertas estan abiertas los siete dias de la semanas. Ventas para mayoristas y minoristas.">
     <title>Panadería El buen pan</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/index.css">
-    <!-- <link rel="stylesheet" href="./css/main.css"> -->
+    
 
 </head>
 <body >
@@ -17,6 +19,11 @@
             <a class="header__nav__link" href="index.html">
                 <img class="header__nav__link__logo" src="img/logo.png" alt="Logo de panadería">
             </a>
+            <input type="checkbox" name="nav__checkbox" id="nav__checkbox" class="nav__menu__checkbox">
+            <label for="nav__checkbox" class="nav__menu__hamburguesa">
+                <img src="./img/men_ham.png" alt="boton_menu" class="menu__abrir-img">
+                <img src="./img/men_close.png" alt="boton_cerrar_menu" class="menu__cerrar-img">
+            </label>
             <ul class="header__nav__ul">
                 <li>
                     <a href="./paginas_html/sobre_nosotros.html">Sobre nosotros</a>
@@ -31,15 +38,37 @@
             </ul>
         </nav>
     </header>                                         <!--FIN de HEADER-->
-    <main > 
+    <main class="container"> 
         <h1>Panadería El buen pan</h1>
-        <section class="container">
+        <section class="index__section">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/img_index.jfif" class="d-block w-100" alt="imagen dentro del local">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/img_index_2.jfif" class="d-block w-100" alt="imagen dentro del local 2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/img_index_3.jfif" class="d-block w-100" alt="imagen dentro del local 3">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+              <div id="carouselExampleSlidesOnly" class=" slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <img src="img/img_index.jfif" class="d-block w-100" alt="...">
@@ -51,24 +80,12 @@
                     <img src="img/img_index_3.jfif" class="d-block w-100" alt="...">
                   </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
               </div>
-                    <!-- <img class="img_index" id="imgInd1" src="img/img_index.jfif" alt="interior de Panadería">
-                    <img class="img_index" id="imgInd2" src="img/img_index_2.jfif" alt="otra vista interior Panadería"> 
-                    <img class="img_index" id="imgInd3" src="img/img_index_3.jfif" alt="otra vista interior Panadería">                  -->
-
-            <p class="p_index" id="pInd"> <!--descripcion breve del local-->
-                    Somo una panedería familiar. Hacemos todos nuestros productos de forma artesanal. Los esperamos cada día desde la primera hora para que disfruten de nuestros productos mas frescos y deliciosos de la ciudad.
+            <p class="p_index" id="pInd">
+                    Somo una panedería familiar. Hacemos todos nuestros productos de forma artesanal. Los esperamos cada día desde la primera hora para que disfruten de nuestros productos, los mas frescos y deliciosos de la ciudad.
             </p>
         </section>                            
-    </main>                                 <!-- FIN main IMAGENES de body y DESCRIPCIÓN-->
+    </main>                                 <!-- FIN main -->
    
                                        
     <footer class="footer" >                        <!--INICIO de FOOTER-->

@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="contacto, panaderia, el buen pan,artesanal, instagram, ig, facebook, fb, Whatsapp, wapp">
+    <meta name="description" content="Contactenos para conseguir nuestros productos artesanales al mejor precio(Whatsapp, instagram, facebook, mail)">
     <title>Panadería El buen pan</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="../css/index.css">
@@ -15,53 +17,58 @@
             <a class="header__nav__link" href="../index.html">
                 <img class="header__nav__link__logo" src="../img/logo.png" alt="Logo de panadería">
             </a>
+            <input type="checkbox" name="nav__checkbox" id="nav__checkbox" class="nav__menu__checkbox">
+            <label for="nav__checkbox" class="nav__menu__hamburguesa">
+                <img src="../img/men_ham.png" alt="boton_menu" class="menu__abrir-img">
+                <img src="../img/men_close.png" alt="boton|_cerrar_menu" class="menu__cerrar-img">
+            </label>
             <ul class="header__nav__ul">
                 <li>
-                    <a href="./sobre_nosotros.html">Sobre nosotros</a>
+                    <a href="../paginas_html/sobre_nosotros.html">Sobre nosotros</a>
                 </li>
                 <li>
-                    <a href="./nuestros_productos.html">Nuestros productos</a>
+                    <a href="../paginas_html/nuestros_productos.html">Nuestros productos</a>
                 </li> 
-                <li><a href="./donde_encontrarnos.html">Donde encontrarnos</a></li>
+                <li><a href="../paginas_html/donde_encontrarnos.html">Donde encontrarnos</a></li>
                 <li>
-                    <a href="./contactos.html">Contactos</a>
+                    <a href="../paginas_html/contactos.html">Contactos</a>
                 </li>
             </ul>
         </nav>
     </header>                                         <!--FIN de HEADER-->
 
 
-    <main class="main__cont">
-        <h1>Contáctenos a travez de nuestras redes</h1>                                      <!--INICIO MAIN contacto-->
-        <section>
+    <main >
+        <h1 class="h1__contactos">Formas de contacto</h1>                                      <!--INICIO MAIN contacto-->
+        <section class="section__1">
             
-            <ul class="contactanos">
-                <li>Telefono: </li>
-                <li>
-                    <a href="http://" target="_blank"> <img class="img_footer" src="../img/logo_wapp.png" alt="img link Whatsapp"></a> 
+            <ul class="ul__contactanos">
+                <li class="ul__contactanos-tel">Telefono: 3496 - XXXXXX </li>
+                <li class="ul__contactanos__wapp">
+                    <a href="http://" target="_blank"> <img class="ul__contactanos-img" src="../img/logo_wapp.png" alt="img link Whatsapp"></a> 
                 </li>
-                <li>
-                    <a href="https://instagram.com" target="_blank"><img class="img_footer" src="../img/logo_ig.png" alt="img link instagram"></a> 
+                <li class="ul__contactanos__ig">
+                    <a href="https://instagram.com" target="_blank"><img class="ul__contactanos-img" src="../img/logo_ig.png" alt="img link instagram"></a> 
                 </li>
-                <li>
-                    <a href="https://facebook.com" target="_blank"><img class="img_footer" src="../img/logo_fb.png" alt="img link facebook"></a> 
+                <li class="ul__contactanos__fb">
+                    <a href="https://facebook.com" target="_blank"><img class="ul__contactanos-img" src="../img/logo_fb.png" alt="img link facebook"></a> 
                 </li>                
             </ul> 
 
         </section>
-        <section>
-            <h2>O envianos un mail con tu consulta</h2>
+        <section class="section__2">
+            <h2 class="h2__contactos">Atravez de mail</h2>
             <form action="index.js" method="GET">
-                <label for="nombre_y_apellido">Nombre y apellido</label><br>
+                <label class="label__text" for="nombre_y_apellido" >Nombre y apellido</label><br>
                 <input type="text" name="nombre_y_apellido" > <br>
-                <label for="email">Correo</label><br>
+                <label class="label__text" for="email">Correo</label><br>
                 <input type="email" name="email" id=""> <br><br>
-                <label for="tipo de consulta">Su consulta es como:</label>
+                <label class="label__text" for="tipo de consulta">Su consulta es como:</label>
                 <select name="tipo de consulta" id="">
                     <option value="Cliente">Cliente</option>
                     <option value="Revendedor">Revendedor</option>
                 </select><br><br>
-                <label for="texto_mail">Déjenos su consulta:</label><br>
+                <label class="label__text" for="texto_mail">Déjenos su consulta:</label><br>
                 <textarea name="texto_mail" id="" cols="30" rows="10"></textarea><br>
                 <input type="checkbox" name="desea_el_envio_de_promociones" id="">
                 <label for="desea_el_envio_de_promociones">Desea recibir nuestras promociones a su correo </label><br><br>
